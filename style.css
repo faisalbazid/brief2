@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Nunito Sans';
+}
+
+header{
+    background-color:#f38e60;
+    height: 400px;
+    
+}
+nav{
+        display: flex;
+        background-color:#f38e60;
+        position: fixed;
+        width: 100%;
+        z-index: 2;        
+     
+        
+}
+#logo{
+       padding-left: 65px;
+       display: inline-block;
+}
+nav ul{
+    padding:25px 0px 0px 25px;
+
+}
+nav li{
+    display: inline-block;
+    padding-left:50px;
+}
+
+ nav a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+#DAY{
+    margin-left: 10rem;
+    background-color: rgb(2, 32, 47);
+    font-size: 0.8rem;
+    border-radius: 0.4rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    font-weight: 700;
+
+}
+#LOGIN{
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    font-weight: 700;
+    padding: 0.7rem 2rem;
+    background-color: #f38e59;
+    margin-left:2px;
+}
+#DAY:hover{
+    background-color: rgb(4, 65, 96);
+}
+#LOGIN:hover{
+    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.2) ;
+}
+.divHEAD{
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.divHEAD h1{
+    color:white;
+    font-size: 4em;
+    font-weight: 600;
+    
+}
+.divHEAD,h2{
+    font-weight: 400;
+    font-size: 1em;
+    
+    }
+
+    main h2{
+        font-size: 1.9em;
+        color: #5BB5DE;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    main p{
+        font-size: 1.1em;
+        
+    }
+
+#sec1{
+    width: 43%;
+    display: inline-block;
+    margin: 60px 0px 0px 60px;
+   
+    
+    
+}
+#sec2{
+    width: 43%;
+    float: right;
+    margin: 60px 70px 0px 25px;
+ 
+}
+.divREACH, .divLANDER{
+    margin-bottom: 33px;
+    
+}
+.ALLinput{
+    padding-bottom: 30px;
+    position: relative;
+    
+}
+input, textarea{
+    width: 95%;
+    padding:10px;
+    color: #fff;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 10px;
+    
+}
+label{
+    position: absolute;
+    top:0;
+    left:0;
+    padding:10px;
+    color:rgb(158, 158, 158)
+}
+
+#submit{
+    background-color: #F49B6C;
+    border-radius: 5px;
+    padding:20px 40px;
+    border:none;
+    color:white;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 100px;
+    float:right;
+    
+}
+#submit:hover{
+    background-color:#cc602e ;
+}
+   
+.divOTHERWAYS{
+    width: 100%;
+    margin-bottom: 100px ;
+    
+}
+.divOTHERWAYS h3{
+    font-weight: 400;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+}
+
+.divOTHERWAYS img{
+    width: 70px;height: 70px;
+    display: inline-block;
+    
+    
+    
+}
+.divOTHERWAYS p{
+    width: 80%;
+    display: inline-block;
+    padding-left: 15px;
+   
+
+}
+
+
+footer{
+    display: flex;
+    background-color: #333;
+    padding:30px 50px;
+}
+.about,.trylander{
+    width: 22%;
+    
+}
+.help,.Resources,.landing,.comercial{
+    width: 18%;
+}
+
+.comercial{
+    margin-left: 30px;
+}
+footer li{
+    color: #fff;
+    list-style-type: none;
+    padding-bottom: 6px;
+    
+}
+footer li a{
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+.butLANDING{
+    padding:15px 25px;
+    background-color:rgb(2, 32, 47);
+    color: white;
+    border-radius: 5px;
+    border:none;
+    margin-top: 10px;
+    width:80%;
+    font-weight: 700;
+   
+}
+.butLANDING:hover{
+    background-color: rgb(4, 65, 96);
+}
+.lasttext{
+    background-color: rgb(46, 46, 46);
+    color:rgba(255, 255, 255, 0.6);
+    padding: 10px 50px;
+  
+}
+.comercial img{
+    width: 15px;
+    height:15px;
+    
+}
+.comercial a{
+
+    text-decoration: none;
+}
+
+.orangetext{
+    color: #F49B6C;
+   
+}
